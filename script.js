@@ -51,6 +51,7 @@ const handleOnMove = (e) => {
   }
 };
 
+//track movements
 window.onmousedown = (e) => handleOnDown(e);
 
 window.ontouchstart = (e) => handleOnDown(e.touches[0]);
